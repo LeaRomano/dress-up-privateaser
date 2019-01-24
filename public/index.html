@@ -2,22 +2,137 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
+
+    <!-- font -->
+      <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
+
+
+      <link rel = "stylesheet" href="css/bootsrap.min.css">
+      <link rel = "stylesheet" href="css/style.css">
+
   </head>
   <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
-    </div>
-    <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="privateaser.js"></script>
-    <script src="index.js"></script>
-  </body>
-</html>
+
+    <!-- header -->
+    <header class = "container-fluid header">
+      <div class ="container">
+        <a href = "#" class = "logo"> DRESSUP PRIVATEASER </a>
+        <nav class= "Menu">
+          <a href="#"> Home </a>
+          <a href="#about"> About </a>
+          <a href="#search"> Search </a>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- banner -->
+    <section class= "container-fluid banner">
+      <div class  ="ban">
+        <img src="img/ban.jpg" alt ="bannière_du_site" />
+      </div>
+      <div class  ="inner-banner">
+        <h1> Welcome on my </h1>
+      </div>
+    </section>
+    <!-- end banner -->
+
+
+    <!-- Search -->
+
+    <section class= "container-fluid search">
+      <div class="container">
+        <div class = "row">
+          <h2 id="search"> Search </h2>
+          <hr class="separator">
+
+
+
+          <div  class="barinfo" id="bar">
+            <input class="js-name" type="text" placeholder="Bar name"/>
+            <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
+            <input class="js-price-by-person" type="number" placeholder="Price by person"/>
+          </div>
+
+
+
+          <div  class="bookinfo" id="bar">
+            <div id="booker">
+              <input class="js-name" type="text" placeholder="Booker name"/>
+              <input class="js-time" type="number" placeholder="Time in h"/>
+              <input class="js-persons" type="number" placeholder="Persons"/>
+              <input class="js-option" type="checkbox" placeholder="Deductible option" id = "deductible"/>
+              <label for="deductible"> Deductible option </label>
+            </div>
+          </div>
+
+
+            <button id="compute" class = "compute">Compute</button>
+
+            <div id="actors"></div>
+            <script src="privateaser.js"></script>
+            <script src="index.js"  class ="result"></script>
+          </div>
+
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+<!-- End Search -->
+
+    <!-- about -->
+    <section class= "container-fluid about">
+      <div class="container">
+        <div class = "row">
+          <h2 id="about"> About </h2>
+          <hr class="separator">
+          <article class = "col-md-4 col-lg-4 col-xs-12 col-sm-12">
+            <section class= "container-fluid acp">
+              <div class  ="acp">
+                <img src="img/acp.png" alt ="accomp_perso" />
+              </div>
+            </section>
+            <h2> Accompagnement Personnalisé </h2>
+
+            <p>
+              Clémence et son équipe, disponibles pour vous de 9h à 20h, 5 jours sur 7            </p>
+          </article>
+
+
+          <article class = "col-md-4 col-lg-4 col-xs-12 col-sm-12">
+            <section class= "container-fluid qual">
+              <div class  ="qual">
+                <img src="img/qual.png" alt ="accomp_perso" />
+              </div>
+            </section>
+            <h2> Garantie Qualité Privateaser </h2>
+            <p>Des partenaires triés sur le volet, qui respectent sans compromis notre charte qualité            </p>
+          </article>
+
+
+
+          <article class = "col-md-4 col-lg-4 col-xs-12 col-sm-12">
+            <section class= "container-fluid diam">
+              <div class  ="diam">
+                <img src="img/diam.png" alt ="qual" />
+              </div>
+            </section>
+            <h2> Experiences Uniques </h2>
+            <p>Des lieux insolites pour surprendre vos invités et tisser des liens forts            </p>
+          </article>
+        </div>
+      </div>
+
+    </section>
+    <!-- end about -->
+    <!-- footer / contact -->
+    <footer class ="container-fluid footer">
+      <h2> Léa Romano - IBO3 - janvier 2019 </h2>

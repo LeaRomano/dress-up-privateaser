@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* font-family: 'Raleway', sans-serif; */
+
+body, html {
+  padding = 0;
+  margin:  = 0;
+}
+body {
+  font-family:  'Raleway', sans-serif;
+}
+
+a {
+  text-decoration:  none;
+
+}
+a:hover {
+  text-decoration:  none;
+
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* header*/
+
+.header
+{
+
+  background-color: #2C2F36;
+  height: 70px;
+  line-height: 70px;
+
+}
+
+.logo {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+  margin-left: 1%;
+}
+
+.Menu {
+  float: right;
+}
+
+.Menu  a {
+  color: #ffffff;
+  margin-right: 20px;
+
+}
+
+.Menu a {
+  background-color: #2C2F36;
+}
+
+.Menu  a:hover
+{
+  color: #40464F;
+}
+/* bannière*/
+
+.banner {
+  width: 100;
+  max-width: 100%;
+}
+
+.ban {
+
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+
+
+}
+
+.ban img {
+  width: 100%;
+  max-width:  100%;
+
+
+}
+
+.inner-banner {
+  position: absolute;
+  top: 60%;
+  width: 120%;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+.inner-banner h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.separator {
+  height: 3px;
+  width: 10%;
+  border: none;
+  box-shadow: none;
+  background-color: #2C2F36;
+}
+
+#search {
+  text-align: center;
+}
+
+.barinfo input{
+  width: 27%;
+  max-width: 33%;
+  border : 1px solid #2C2F36;
+  border-radius: 2px;
+  margin-top: 2%;
+  padding: 25px 20px;
+  margin-left: 2%;
+
+}
+.bookinfo input {
+  width: 27%;
+  max-width: 33%;
+  border : 1px solid #2C2F36;
+  border-radius: 2px;
+  margin-top: 2%;
+  padding: 25px 20px;
+  margin-left: 2%;
+
+}
+
+.compute {
+  margin-left: 44.5%;
+  background-color: #2C2F36;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5%;
+
+}
+
+.compute:hover {
+  background-color: #40464F;
+
+}
+
+.bookinfo label {
+  font-size: 15px;
+ margin-right:50px;
+ display: inline;
+}
+
+.bookinfo .js-option{
+
+  width: auto;
+  height: 10px;
+  margin: 20px 20px;
+  position: relative;
+}
+
+
+
+/* About*/
+#about {
+  text-align: center;
+}
+
+.about article {
+  margin-top: 3%;
+  text-align: center;
+}
+.about article h2 {
+  text-align: center;
+}
+
+.acp img {
+  width: 5%;
+  max-width:  5%;
+
+
+}
+
+.qual img {
+  width: 5%;
+  max-width:  5%;
+
+}
+
+.diam img {
+  width: 4.5%;
+  max-width:  5%;
+}
+
+.footer h2 {
+  margin-top: 5%;
+  text-align: right;
+  font-size: 15px;
+
+}
